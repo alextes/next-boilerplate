@@ -15,7 +15,9 @@
 ## Integration with other services
 
 * Adyen for payment
+  * Support different currencies for different locales
 * Intersolve for giftcard code gen
+  * Does intersolve support multiple locales?
 * Any other system that needs integration?
 
 # Dev requirements
