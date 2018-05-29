@@ -1,3 +1,7 @@
+Character of the email
+* Highlight the questions we _need_ answers to on Tuesday to get started.
+* Explain that most questions and statements are here to make sure we move in the right direction. We're looking for alignment and to avoid surprises. Not for long and exact answers.
+
 # Infrastructure
 
 ## Development Operations (devops)
