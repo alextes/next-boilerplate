@@ -7,29 +7,28 @@
 
 Sidenote: We have devops knowledge. It would be great if the extent of Ritual's involvement in hosting was to provide wide (limitation-wise) but isolated Google Cloud access with some reasonable budget.
 
-## CI / CD
+## Continuous Integration / Continuous Development
 
 * Does rituals' hosting environment have any CI / CD integration already set up?
 * If so, would you prefer we use it?
 
 ## Domains
 
-* Most likely going to look like: rituals.world/giftcard
+* Most likely going to look like: rituals.world/giftcard .
 
 ## Integration with third party services
 
-* Adyen for payment
-  * Support different currencies for different locales
-* Intersolve for giftcard code gen
+* Adyen for payments.
+  * Support different currencies for different locales.
+* Intersolve for giftcard code gen.
   * Will Rituals put any kind of text or content on the card where Intersolve does not handle localization? Think, currency of the amount or a friendly message.
-* Any other system that needs integration?
 
-# Dev requirements
+# Development Requirements
 
-## i18n
+## Internationalization (i18n)
 
-* starting with EN / NL
-* No RTL languages in future
+* Starting with EN / NL.
+* No right-to-left (RTL) languages in future.
 
 ## Accessibility?
 
@@ -37,13 +36,12 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 
 ## Styleguide
 
-* There's a styleguide available from Rituals
-  * Comes with a JS bundle that does dom manipulation
+* There's a styleguide available from Rituals.
+  * Comes with JavaScript that does dom manipulation.
 
-## Stack
+## Preferred Stack
 
-* Depends a bit on the above. If we use the styleguide (inc js bundle) we may want to use a very basic setup, just plain old js dom manipulation?
+* Depends a bit on the above. If we use the styleguide including the JavaScript we may want to use a very basic setup, just plain old js dom manipulation?
 
-# Success indicators
+# Success Indicators
 
-\*
