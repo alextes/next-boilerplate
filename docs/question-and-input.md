@@ -1,8 +1,11 @@
 # Infrastructure
 
-## Hosting
+## Development Operations (devops)
 
-* There was talk about Google App engine at Rituals?
+* You've mentioned Google Cloud. Can we use Google Cloud's services?
+* If there's some other method of hosting which, and how would that work for us? This one has a long list of follow-up questions that we can answer later, a general idea would be great if there's something more complicated in place than: we use what we need from Google Cloud.
+
+Sidenote: We have devops knowledge. It would be great if the extent of Ritual's involvement in hosting was to provide wide (limitation-wise) but isolated Google Cloud access with some reasonable budget.
 
 ## CI / CD
 
