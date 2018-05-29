@@ -30,7 +30,7 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 * Starting with EN / NL.
 * No right-to-left (RTL) languages in future.
 
-## Accessibility?
+## Accessibility
 
 * Does Rituals have any special or uncommon standards for accessibility?
 
