@@ -47,3 +47,5 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 * Have something cool to show.
 * Be able to launch before October.
 
+# Other
+* The current UX flow puts payment before giftcard customization. We're curious about the reasoning behind it? From the business / tech perspective a reason to prefer it the other way around is that this makes it possible for a payment to be accepted before a product can be delivered. This question matters too with respect to the exact backend order flow.
