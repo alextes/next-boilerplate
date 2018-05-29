@@ -44,4 +44,6 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 * Depends a bit on the above. If we use the styleguide including the JavaScript we may want to use a very basic setup, just plain old js dom manipulation?
 
 # Success Indicators
+* Have something cool to show.
+* Be able to launch before October.
 
