@@ -1,4 +1,4 @@
-# Infra
+# Infrastructure
 
 ## Hosting
 
@@ -6,7 +6,7 @@
 
 ## CI / CD
 
-* Does rituals' hosting env have any CI / CD integration already set up?
+* Does rituals' hosting environment have any CI / CD integration already set up?
 
 ## Domains
 
