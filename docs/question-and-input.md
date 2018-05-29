@@ -16,12 +16,12 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 
 * Most likely going to look like: rituals.world/giftcard
 
-## Integration with other services
+## Integration with third party services
 
 * Adyen for payment
   * Support different currencies for different locales
 * Intersolve for giftcard code gen
-  * Does intersolve support multiple locales?
+  * Will Rituals put any kind of text or content on the card where Intersolve does not handle localization? Think, currency of the amount or a friendly message.
 * Any other system that needs integration?
 
 # Dev requirements
