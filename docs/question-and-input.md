@@ -10,6 +10,7 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 ## CI / CD
 
 * Does rituals' hosting environment have any CI / CD integration already set up?
+* If so, would you prefer we use it?
 
 ## Domains
 
