@@ -33,7 +33,7 @@ Sidenote: We have devops knowledge. It would be great if the extent of Ritual's 
 
 ## Accessibility?
 
-* Not sure if we have any checks here, most likely just basic support as usual
+* Does Rituals have any special or uncommon standards for accessibility?
 
 ## Styleguide
 
