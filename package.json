@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "git@github.com:alextes/gift-card.git",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "next"
+  },
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
 }
