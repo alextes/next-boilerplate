@@ -1,0 +1,9 @@
+{
+  "name": "gift-card",
+  "version": "1.0.0",
+  "description": "Gift card project for Rituals.",
+  "main": "index.js",
+  "repository": "git@github.com:alextes/gift-card.git",
+  "license": "UNLICENSED",
+  "private": true
+}
