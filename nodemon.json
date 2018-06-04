@@ -1,0 +1,12 @@
+
+{
+    "ignore": [
+      "build/**/*",
+      "src/components/**/*",
+      "src/pages/**/*"
+    ],
+    "verbose": false,
+    "delay": "500",
+    "exec": "ts-node -P tsconfig.server.json src/server.ts",
+    "ext": ".ts,.tsx"
+  }
