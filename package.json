@@ -7,17 +7,38 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "next"
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src",
+    "dev:custom-server": "nodemon",
+    "build:custom-server": "next build src && tsc -P tsconfig.server.json",
+    "start:custom-server": "NODE_ENV=production node build/server.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "build/**/*",
+      "src/components/**/*",
+      "src/pages/**/*"
+    ],
+    "verbose": false,
+    "delay": "500",
+    "exec": "ts-node -P tsconfig.server.json src/server.ts",
+    "ext": ".ts,.tsx"
   },
   "dependencies": {
-    "@zeit/next-typescript": "1.0.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
   },
   "devDependencies": {
-    "@types/next": "^2.4.7",
+    "@types/next": "^2.4.11",
     "@types/react": "^16.0.36",
-    "prettier": "^1.13.4"
+    "@zeit/next-typescript": "1.0.1",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.4",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
   }
 }
