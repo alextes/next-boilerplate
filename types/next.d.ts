@@ -1,11 +1,7 @@
 import * as Next from 'next';
+import { Environment } from '../src/lib/env';
 
 declare module 'next' {
-  export interface Environment {
-    PORT: number;
-    NODE_ENV: string;
-  }
-
   export interface ExtendedWindow extends Window {
     __NEXT_DATA__: {
       ids: string[];
