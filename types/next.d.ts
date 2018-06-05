@@ -1,6 +1,7 @@
 import * as Next from 'next';
 import { Environment } from '../src/lib/env';
 
+// Next's type defs aren't complete yet. Until the discussion is resolved we have these (https://github.com/zeit/next.js/issues/1651)
 declare module 'next' {
   export interface ExtendedWindow extends Window {
     __NEXT_DATA__: {
