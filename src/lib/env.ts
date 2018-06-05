@@ -1,5 +1,10 @@
 import { isBrowser } from './is-browser';
-import { NextWindow, Environment } from 'types/next';
+import { ExtendedWindow } from 'next';
+
+export interface Environment {
+  PORT: number;
+  NODE_ENV: string;
+}
 
 const serverEnv: Environment = {
   PORT: Number(process.env.PORT) || 3000,
@@ -7,5 +12,5 @@ const serverEnv: Environment = {
 };
 
 export const env = isBrowser
-  ? (window as NextWindow).env || serverEnv
+  ? (window as ExtendedWindow).env || serverEnv
   : serverEnv;
