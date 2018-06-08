@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-import { ifProp } from './helpers';
+import { ifProp } from './style-utils';
 
 test('it conditionally returns style', () => {
   const style: CSSProperties = { fontWeight: 'bold' };

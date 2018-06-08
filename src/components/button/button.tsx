@@ -1,5 +1,5 @@
 import styled from 'react-emotion';
-import { ifProps, media } from '../helpers';
+import { ifProps, media } from '../../lib/style-utils';
 
 // Example of a styled button with custom props
 interface ButtonProps {

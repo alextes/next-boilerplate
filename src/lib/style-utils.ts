@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-import { breakpoints, fonts } from './config';
+import { breakpoints, fonts } from '../config';
 
 // Return a valid CSS string for the font families
 export function getFontFamily(f: keyof typeof fonts) {
@@ -27,7 +27,7 @@ type PropMap<P> = { [key in keyof P]: Style<P> };
 export function ifProps<P>(propMap: PropMap<P>) {
   return (props: P) =>
     Object.keys(props)
-      .map((key: keyof P) => {
+      .map(key => {
         const propStyle: Style<P> = propMap[key];
         return props[key]
           ? propStyle && typeof propStyle === 'function'
